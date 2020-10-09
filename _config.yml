@@ -1,0 +1,16 @@
+
+plugins:
+  - github-pages
+
+include:
+  - "_pages"
+
+exclude:
+  - "Makefile"
+  - "Gemfile*"
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name
+

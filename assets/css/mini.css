@@ -1,0 +1,42 @@
+body {
+  font-family: system-ui, ui-serif, serif;
+  max-width: 43rem;
+  margin: 0px auto;
+  padding: 0px 3%;
+  overflow-y: scroll;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 480px) and (min-height: 380px) {
+  nav {
+    position: sticky;
+  }
+}
+
+nav {
+  top: 0px;
+  background: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 0.66rem;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: #555555;
+  margin: 0px 1%;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+footer{
+  margin-top: 3rem;
+  margin-bottom: 0.33rem;
+}
+

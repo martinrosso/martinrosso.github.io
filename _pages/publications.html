@@ -1,0 +1,23 @@
+---
+title: Publications
+permalink: /publications.html
+layout: default
+published: true
+---
+
+{% assign sorted_papers = site.publications | sort: 'published_in:date' %}
+{% for paper in sorted_papers %}
+<article class="{{ paper.type | default: 'publication' }}">
+    {{ paper.authors | array_to_sentence_string }}:
+    <br>
+    <strong><cite>{{ paper.ptitle }}</cite></strong>
+    <br>
+    Published in <cite>{{ paper.published_in.long_name }}</cite> ({{ paper.published_in.short_name }}) on <time datetime="{{ paper.published_in.date | date: '%Y-%m-%d' }}">{{ paper.published_in.date | date: '%B %d, %Y' }}</time>.
+    <br>
+    [<a href="{{ paper.url }}">get access info</a>]
+    </article>
+    <br>
+{% else %}
+     <p>Nothing to see here.</p>
+{% endfor %}
+
