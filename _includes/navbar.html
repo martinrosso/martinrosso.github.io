@@ -1,0 +1,6 @@
+<nav>
+    {% for navitem in site.data.navbar_items -%}
+        <a href="{{ navitem.url }}">{{ navitem.name }}</a>
+    {% endfor -%}
+</nav>
+
