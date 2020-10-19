@@ -19,7 +19,9 @@ title: {{ page.name }}
     {% for link in paper.links %}
         {%- assign link_name = link[0] -%}
         {%- assign link_target = link[1] -%}
-	    [<a href="{{ link_target }}" >{{ link_name }}</a>]
+            [<a href="{{ link_target }}" >{{ link_name }}</a>]
+    {% else %}
+        [ to be anounced ]
     {% endfor %}
     </div>
     <h2>Abstract</h2>
