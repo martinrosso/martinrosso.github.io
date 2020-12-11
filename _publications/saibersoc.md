@@ -12,7 +12,7 @@ ptitle: "SAIBERSOC: Synthetic Attack Injection to Benchmark and Evaluate the Per
 subtitle: null
 keywords: null
 links:
-    official: "https://doi.org/101145/3427228.3427233"
+    official: "https://doi.org/10.1145/3427228.3427233"
 #    authorizer: "https://dl.acm.org"
     arxiv: "https://arxiv.org/abs/2010.08453"
 #    pdf:
@@ -44,4 +44,7 @@ published_in:
 accessibility: "free"
 
 ---
+
+1. This paper has [artifacts](https://gitlab.tue.nl/saibersoc/acsac2020-artifacts).
+2. This paper received the [Distinguished Paper with Artifacts Award](https://twitter.com/ACSAC_Conf/status/1336701231717347334) (ACSAC'20).
 

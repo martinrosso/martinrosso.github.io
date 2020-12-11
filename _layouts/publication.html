@@ -19,7 +19,7 @@ title: {{ page.name }}
     {% for link in paper.links %}
         {%- assign link_name = link[0] -%}
         {%- assign link_target = link[1] -%}
-            [<a href="{{ link_target }}" >{{ link_name }}</a>]
+        [<a href="{{ link_target }}">{{ link_name }}</a>]
     {% else %}
         [ to be anounced ]
     {% endfor %}
@@ -29,5 +29,12 @@ title: {{ page.name }}
     {{ paper.abstract }}
     </p>
     <br>
+    {% assign content_length = paper.content | number_of_words %}
+    {% if content_length > 1 %}
+    <h2>Additional Info</h2>
+    <p class="additional_info">
+    {{ paper.content }}
+    </p>
+    {% endif %}
 </article>
 
