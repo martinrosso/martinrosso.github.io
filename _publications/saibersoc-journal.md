@@ -46,4 +46,4 @@ accessibility: "open access"
 ---
 
 1. This paper has [artifacts](https://gitlab.tue.nl/saibersoc/acsac2020-artifacts).
-2. This paper is an extended version of the [SAIBERSOC publication](/publications/saibersoc).
+2. This paper is an extended version of the [SAIBERSOC publication](./saibersoc).
