@@ -44,9 +44,10 @@ abstract: >
 
 published_in:
     type: "workshop"
-    long_name: "IEEE Workshop on the Internet of Safe Things"
-    short_name: "SafeThings (IEEE SPW)"
+    long_name: "2022 IEEE Security and Privacy Workshops"
+    short_name: "SPW 2022"
     date: 2022-05-22
+    presented_at: "IEEE Workshop on the Internet of Safe Things (SafeThings)"
 
 accessibility: "open access"
 
