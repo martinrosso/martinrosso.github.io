@@ -14,5 +14,4 @@ Following the [TRU/e Master program](https://www.true-security.nl), a collaborat
 
 
 ## Contact
-See [here](https://www.tue.nl/en/our-university/about-the-university/search-staff/).
-
+See [here](https://www.tue.nl/en/research/researchers/martin-rosso).
