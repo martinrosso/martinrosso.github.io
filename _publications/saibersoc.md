@@ -6,14 +6,13 @@ title: SAIBERSOC
 authors:
     - "Martin Rosso"
     - "Michele Campobasso" # : michelecampobasso.github.io
-    - "Ganduulga Gankhuyag"  # : ""
+    - "Ganduulga Gankhuyag"  # : 
     - "Luca Allodi"  # : lallodi.github.io
 ptitle: "SAIBERSOC: Synthetic Attack Injection to Benchmark and Evaluate the Performance of Security Operation Centers"
 subtitle: null
 keywords: null
 links:
     official: "https://doi.org/10.1145/3427228.3427233"
-#    authorizer: "https://dl.acm.org"
     arxiv: "https://arxiv.org/abs/2010.08453"
 #    pdf:
 #    dblp:
@@ -47,4 +46,4 @@ accessibility: "free"
 
 1. This paper has [artifacts](https://gitlab.tue.nl/saibersoc/acsac2020-artifacts).
 2. This paper received the [Distinguished Paper with Artifacts Award](https://twitter.com/ACSAC_Conf/status/1336701231717347334) (ACSAC'20).
-
+3. This paper has an [extended journal version](publications/saibersoc-journal).
