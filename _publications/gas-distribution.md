@@ -46,7 +46,7 @@ published_in:
     type: "workshop"
     long_name: "IEEE Workshop on the Internet of Safe Things"
     short_name: "SafeThings (IEEE SPW)"
-    date: 2022
+    date: 2022-05-22
 
 accessibility: "open access"
 
