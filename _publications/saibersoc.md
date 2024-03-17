@@ -46,4 +46,4 @@ accessibility: "free"
 
 1. This paper has [artifacts](https://gitlab.tue.nl/saibersoc/acsac2020-artifacts).
 2. This paper received the [Distinguished Paper with Artifacts Award](https://twitter.com/ACSAC_Conf/status/1336701231717347334) (ACSAC'20).
-3. This paper has an [extended journal version](publications/saibersoc-journal).
+3. This paper has an [extended journal version](./saibersoc-journal).
